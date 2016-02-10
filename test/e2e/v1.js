@@ -40,8 +40,8 @@ describe('swagger 1.x spec tests', function () {
     });
   });
 
-  it('should have "Swagger UI" in title', function () {
-    return driver.wait(until.titleIs('Swagger UI'), 1000);
+  it('should have "Tinfoil Security - API Specification" in title', function () {
+    return driver.wait(until.titleIs('Tinfoil Security - API Specification'), 1000);
   });
 
   elements.forEach(function (id) {
